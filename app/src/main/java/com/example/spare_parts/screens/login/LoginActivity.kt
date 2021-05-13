@@ -10,6 +10,7 @@ import com.example.spare_parts.databinding.ActivityLoginBinding
 import com.example.spare_parts.databinding.DialogRecoveryBinding
 import com.example.spare_parts.screens.register.RegisterActivity
 import com.example.spare_parts.screens.common.BaseActivity
+import com.example.spare_parts.screens.common.coordinateBtnAndInputs
 import com.example.spare_parts.screens.main.MainActivity
 import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEvent
 import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEventListener

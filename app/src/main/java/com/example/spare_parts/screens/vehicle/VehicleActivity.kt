@@ -50,11 +50,13 @@ class VehicleActivity : BaseActivity(),
                 nameVehicle.text = auto?.capitalize()
 
                 val work = intent.getStringExtra("work")
-                if (work.length > 150) {
-                    val textCon = work?.substring(0, 150) + "..."
-                    workDescription.text = textCon.capitalize()
-                } else {
-                    workDescription.text = work.capitalize()
+                if (work != null) {
+                    if (work.length > 150) {
+                        val textCon = work.substring(0, 150) + "..."
+                        workDescription.text = textCon.capitalize()
+                    } else {
+                        workDescription.text = work.capitalize()
+                    }
                 }
                 val price1 = intent.getStringExtra("price1")
                 cash1.text = if (price1 == null) null else "$price1/час"

@@ -3,6 +3,7 @@ package com.example.spare_parts.screens.listvehicle
 import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.spare_parts.databinding.ActivityListBinding
 import com.example.spare_parts.models.DataVehicles
 import com.example.spare_parts.screens.vehicle.VehicleActivity

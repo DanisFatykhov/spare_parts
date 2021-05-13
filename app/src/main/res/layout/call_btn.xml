@@ -10,7 +10,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textColor="@color/white"
-            android:text="Позвонить"
+            android:text="@string/call"
             android:textSize="18sp"
             android:gravity="center"
             android:background="@color/orange2"

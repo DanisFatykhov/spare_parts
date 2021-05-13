@@ -7,10 +7,13 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import com.example.spare_parts.R
 import com.example.spare_parts.databinding.ActivityMainBinding
+import com.example.spare_parts.screens.addvehicle.AddVehicleActivity
+import com.example.spare_parts.screens.application.ListApplicationActivity
 import com.example.spare_parts.screens.editvehicle.EditListActivity
 import com.example.spare_parts.screens.common.BaseActivity
 import com.example.spare_parts.screens.common.setupAuthGuard
 import com.example.spare_parts.screens.editprofile.EditProfileActivity
+import com.example.spare_parts.screens.rent.RentActivity
 import com.google.android.material.navigation.NavigationView
 
 

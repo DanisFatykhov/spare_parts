@@ -6,7 +6,7 @@ import com.example.spare_parts.data.UsersRepository
 import com.example.spare_parts.models.User
 
 
-class VehicleViewModel(private val usersRepository: UsersRepository): ViewModel() {
+class VehicleViewModel(usersRepository: UsersRepository): ViewModel() {
 
     val user: LiveData<User> = usersRepository.getUser()
 }

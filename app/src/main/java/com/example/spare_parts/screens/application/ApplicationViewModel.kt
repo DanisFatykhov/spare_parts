@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import com.example.spare_parts.data.UsersRepository
 import com.example.spare_parts.models.User
 
-class ApplicationViewModel(private val usersRepository: UsersRepository): ViewModel() {
+class ApplicationViewModel(usersRepository: UsersRepository): ViewModel() {
 
     val user: LiveData<User> = usersRepository.getUser()
 }

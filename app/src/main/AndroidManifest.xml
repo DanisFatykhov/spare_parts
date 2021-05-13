@@ -16,9 +16,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".screens.application.ApplicationActivity"></activity>
+        <activity android:name=".screens.application.ApplicationActivity" />
         <activity android:name=".screens.addapplication.AddApplicationActivity" />
-        <activity android:name=".screens.DescriptionActivity" />
         <activity android:name=".screens.editvehicle.EditListActivity" />
         <activity android:name=".screens.application.ListApplicationActivity" />
         <activity android:name=".screens.vehicle.VehicleActivity" />
