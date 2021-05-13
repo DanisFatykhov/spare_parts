@@ -1,0 +1,96 @@
+<resources>
+    <!-- Приложение -->
+    <string name="app_name">spare_parts</string>
+    <string name="application_name">название SpareParts</string>
+    <string name="application_icon">иконка приложения</string>
+    <!-- Главная -->
+    <string name="rent">Аренда спецтехники</string>
+    <string name="placement">Размещение спецтехники</string>
+    <string name="application">Объявления</string>
+    <!-- Категории -->
+    <string name="truck">Тягачи и полуприцепы</string>
+    <string name="concrete_pump_truck">Бетононасосы</string>
+    <string name="concrete_mixer">Бетономешалки</string>
+    <string name="loader_excavator">Экскаватор-погрузчики</string>
+    <string name="truck_crane">Автокраны</string>
+    <string name="dump">Самосвалы</string>
+    <string name="board">Бортовые платформы</string>
+    <!-- Регистрация -->
+    <string name="please_enter_your_password">Пожалуйста, введите пароль</string>
+    <string name="please_your_password_more">Ваш пароль должен содержать не менее 6 символов</string>
+    <string name="please_enter_your_email">Пожалуйста, введите email</string>
+    <string name="this_email_already_exists">Этот email уже используется</string>
+    <string name="please_enter_email_and_password">"Пожалуйста, введите email и пароль</string>
+    <string name="next_btn">Далее</string>
+    <string name="enter_your_name_and_password">Введите имя и пароль</string>
+    <string name="error_please_try_again_later">Ошибка! Пожалуйста, попытайтесь снова</string>
+    <string name="error_enter_email">Ошибка! Не правильный формат email адреса</string>
+    <string name="sent_to_message_your_email">На Вашу почту отправлено письмо для подтверждения Email</string>
+    <string name="error_sent_to_message_your_email">Не удалось отправить письмо для подтверждения Email</string>
+    <!-- Вход -->
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="login_email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="password_recovery">Забыли пароль?</string>
+    <string name="send">Отправить</string>
+    <string name="email_reset_password_was_send">На Вашу почту отправлено письмо для восстановления пароля</string>
+    <!-- Меню -->
+    <string name="my_ads">Объявления</string>
+    <string name="my_vehicle">Моя техника</string>
+    <string name="my_application">Мои объявления</string>
+    <string name="my_account">Аккаунт</string>
+    <string name="profile">Профиль</string>
+    <string name="exit">Выход</string>
+    <string name="close_drawer">Close</string>
+    <string name="open_drawer">Open</string>
+    <!-- Прочее -->
+    <string name="main">Главная</string>
+    <string name="name">Имя</string>
+    <string name="search">Поиск</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Email</string>
+    <string name="region">Регион</string>
+    <string name="city">Город</string>
+    <!-- Техника -->
+    <string name="please_enter_your_image">Пожалуйста, сделайте фотографию</string>
+    <string name="vehicle_name">Название техники</string>
+    <string name="enter_vehicle_name">Введите название техники</string>
+    <string name="perform_work">Выполняемые работы</string>
+    <string name="enter_perform_work">Укажите выполняемые работы</string>
+    <string name="cost_work">Стоимость работы</string>
+    <string name="cost_1">Стоимость часа, руб</string>
+    <string name="cost_2">Стоимость смены, руб</string>
+    <string name="vehicle_categories">Категории техники</string>
+    <string name="technical_specifications">Технические характеристики</string>
+    <string name="height_arrow">Высота стрелы, м</string>
+    <string name="mass_arrow">Грузоподъёмность крана, т</string>
+    <string name="volume_mix">Объём миксера, куб.м</string>
+    <string name="width_bodywork">Ширина кузова, м</string>
+    <string name="length_bodywork">Длина кузова, м</string>
+    <string name="mass_bodywork">Грузоподъёмность кузова, т</string>
+    <string name="volume_bodywork">Объём кузова, куб.м</string>
+    <string name="width_area">Ширина площадки, м</string>
+    <string name="length_area">Длина прицепа, м</string>
+    <string name="mass">Грузоподъёмность, т</string>
+    <string name="loading_height">Погрузочная высота, м</string>
+    <string name="mass_front_excavator">Грузоподъёмность погрузчика, т</string>
+    <string name="height_front_excavator">Высота разгрузки погрузчика, м</string>
+    <string name="volume_front_excavator">Объём переднего ковша, куб.м</string>
+    <string name="volume_excavator">Объём заднего ковша, куб.м</string>
+    <string name="depth_excavator">Глубина копания, м</string>
+    <string name="height_excavator">Высота выгрузки экскаватора, м</string>
+    <!-- Объявления -->
+    <string name="title_app">Название объявления</string>
+    <string name="enter_title_app">Введите название</string>
+    <string name="description_app">Описание объявления</string>
+    <string name="enter_description_app">Введите описание</string>
+    <string name="address">Адрес</string>
+    <string name="enter_address">Город, улица, дом</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="enter_name">Введите ваше имя</string>
+    <string name="your_phone">Ваш контактный номер телефона</string>
+    <string name="enter_phone">Введите номер телефона</string>
+    <string name="call">Позвонить</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "67240912541",
+    "firebase_url": "https://spareparts-310ea.firebaseio.com",
+    "project_id": "spareparts-310ea",
+    "storage_bucket": "spareparts-310ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67240912541:android:66bdc59251cb24e5821674",
+        "android_client_info": {
+          "package_name": "com.example.spare_parts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67240912541-t38dj3bjp3djv6m3i66denprhv74kmfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spare_parts",
+            "certificate_hash": "b3a436d30afc806085303f90e8e2e324e60231b6"
+          }
+        },
+        {
+          "client_id": "67240912541-kn5qq11r00e3m1uj09st7oqrsfcrtfuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-FHQqBDSCbfIEzmB9VJsK1r9wvcgzrqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67240912541-kn5qq11r00e3m1uj09st7oqrsfcrtfuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

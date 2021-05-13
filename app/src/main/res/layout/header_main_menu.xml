@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_main_height"
+        android:background="@color/toolbar_gray">
+
+    <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/photo"
+            android:id="@+id/imageView"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/application_icon"
+            android:padding="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+            android:id="@+id/spare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPARE"
+            android:textSize="27sp"
+            android:textColor="@color/orange"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARTS"
+            android:textSize="27sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/spare"
+            app:layout_constraintBottom_toBottomOf="@+id/spare"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

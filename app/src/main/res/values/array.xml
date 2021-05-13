@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_array">
+        <item>@string/loader_excavator</item>
+        <item>@string/dump</item>
+        <item>@string/truck</item>
+        <item>@string/board</item>
+        <item>@string/concrete_mixer</item>
+        <item>@string/truck_crane</item>
+        <item>@string/concrete_pump_truck</item>
+    </string-array>
+
+    <string-array name="description_array">
+        <item>Беларус, JCB, Caterpillar</item>
+        <item>Камаз</item>
+        <item>Volvo, Man, Scania</item>
+        <item>Volvo, Man, Scania</item>
+        <item>Камаз, Volvo</item>
+        <item>Камаз, Liebherr</item>
+        <item>Putzmeister</item>
+    </string-array>
+
+    <array name="image_array">
+        <item>@drawable/tractor</item>
+        <item>@drawable/dump</item>
+        <item>@drawable/truck</item>
+        <item>@drawable/board</item>
+        <item>@drawable/concrete_mixer</item>
+        <item>@drawable/truck_crane</item>
+        <item>@drawable/pump_truck</item>
+    </array>
+</resources>

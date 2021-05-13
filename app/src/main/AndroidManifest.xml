@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.example.spare_parts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="true" />
+
+    <application
+            android:name=".screens.common.SparePartsApp"
+            android:allowBackup="true"
+            android:icon="@drawable/ic_spare_parts"
+            android:label="SpareParts"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".screens.application.ApplicationActivity"></activity>
+        <activity android:name=".screens.addapplication.AddApplicationActivity" />
+        <activity android:name=".screens.DescriptionActivity" />
+        <activity android:name=".screens.editvehicle.EditListActivity" />
+        <activity android:name=".screens.application.ListApplicationActivity" />
+        <activity android:name=".screens.vehicle.VehicleActivity" />
+        <activity android:name=".screens.editvehicle.EditVehicleActivity" />
+        <activity android:name=".screens.addvehicle.AddVehicleActivity" />
+        <activity android:name=".screens.editprofile.EditProfileActivity" />
+        <activity
+                android:name=".screens.register.RegisterActivity"
+                android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+                android:name=".screens.login.LoginActivity"
+                android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".screens.listvehicle.ListBackhoeLoaders" />
+        <activity android:name=".screens.listvehicle.ListDumps" />
+        <activity android:name=".screens.listvehicle.ListTrucks" />
+        <activity android:name=".screens.listvehicle.ListBoardManipulators" />
+        <activity android:name=".screens.listvehicle.ListConcreteMixers" />
+        <activity android:name=".screens.listvehicle.ListAutocranes" />
+        <activity android:name=".screens.listvehicle.ListConcretePumps" />
+        <activity android:name=".screens.rent.RentActivity" />
+        <activity android:name=".screens.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="com.example.spare_parts.fileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

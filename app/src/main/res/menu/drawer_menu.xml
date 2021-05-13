@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group>
+
+        <item android:title="@string/my_ads">
+            <menu>
+                <item
+                        android:id="@+id/id_my_vehicle"
+                        android:title="@string/my_vehicle"
+                        android:icon="@drawable/ic_my_vehicle"/>
+
+                <item
+                        android:id="@+id/id_my_application"
+                        android:title="@string/application"
+                        android:icon="@drawable/ic_my_application"
+                        />
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/my_account">
+            <menu>
+                <item
+                        android:id="@+id/id_profile"
+                        android:title="@string/profile"
+                        android:icon="@drawable/ic_person"/>
+
+                <item
+                        android:id="@+id/id_exit"
+                        android:title="@string/exit"
+                        android:icon="@drawable/exit"
+                        />
+            </menu>
+        </item>
+
+
+
+    </group>
+
+</menu>
